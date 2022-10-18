@@ -1,0 +1,217 @@
+.calculators {
+
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+
+    .boxs {
+        background-color: rgba(214, 217, 211, 0.206);
+        width: 98%;
+        height: 800px;
+        border-radius: 20px;
+
+        .cal-heading {
+            padding-top: 1rem;
+            font-size: 2.8rem;
+            font-weight: 600;
+            background-repeat: no-repeat;
+            margin-left: 5rem;
+
+        }
+
+
+
+        .ad {
+            margin-top: 2.3rem;
+            margin-left: 5rem;
+            margin-bottom: 2.5rem;
+            font-size: 37px;
+            background-image: url('../assets/imag/bg-line.png');
+            background-repeat: no-repeat;
+            width: 24ch;
+            background-size: 102% 117%;
+            background-position: 0px 6px;
+        }
+
+        .cal-para {
+            font-size: 1.3rem;
+            color: rgba(3, 51, 51, 0.6);
+            margin-left: 5rem;
+            margin-right: 2rem;
+        }
+
+        .box-big {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            margin-top: 2.5rem;
+        }
+
+
+        // part 1
+
+        .boxa {
+            width: 500px;
+            height: 500px;
+            float: left;
+            margin-right: 40px;
+
+            .box1 {
+                background-color: white;
+                width: 500px;
+                height: 230px;
+                border-radius: 30px;
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+
+                .imgg {
+                    width: 25%;
+                    height: 60%;
+                    background-color: cornsilk;
+                    margin: 20px;
+                    border-radius: 10px;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                }
+
+                .data {
+                    width: 45%;
+                    height: 100%;
+
+                    .data-p {
+                        font-size: 18px;
+                        margin-top: 14%;
+                        color: slategrey;
+                    }
+
+                    .data-h1 {
+                        margin-top: 10%;
+                        font-size: 26px;
+                    }
+                }
+
+                .btn-div {
+                    width: 80%;
+                    // border: 1px solid red;
+                    height: 45px;
+                    margin-top: 7%;
+
+                }
+
+                .btn {
+                    width: 100%;
+                    height: 100%;
+                    font-size: 16px;
+                    font-weight: 600;
+                    background: #fff;
+                    border: 1px solid #5ab5e3;
+                    color: #5ab5e3;
+                    text-transform: uppercase;
+                    text-align: center;
+                    border-radius: 6px;
+
+                    &:hover {
+                        background-color: #5ab5e3;
+                        color: white;
+                    }
+                }
+
+            }
+
+        }
+
+    }
+
+
+    // part 2
+
+    .boxb {
+        width: 500px;
+        height: 500px;
+        float: left;
+
+        .box1 {
+            background-color: white;
+            width: 530px;
+            height: 230px;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+
+            .imgg {
+                width: 25%;
+                height: 60%;
+                background-color: cornsilk;
+                margin: 20px;
+                border-radius: 10px;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+
+            }
+
+            .data {
+                width: 45%;
+                height: 100%;
+
+                .data-p {
+                    font-size: 18px;
+                    margin-top: 14%;
+                    color: slategrey;
+                }
+
+                .data-h1 {
+                    margin-top: 10%;
+                    font-size: 26px;
+                }
+            }
+
+            .btn-div {
+                width: 80%;
+                height: 45px;
+                margin-top: 7%;
+
+
+
+                .btn {
+                    width: 100%;
+                    height: 100%;
+                    font-size: 16px;
+                    font-weight: 600;
+                    background: #fff;
+                    border: 1px solid #5ab5e3;
+                    color: #5ab5e3;
+                    text-transform: uppercase;
+                    text-align: center;
+                    border-radius: 6px;
+
+                    &:hover {
+                        background-color: #5ab5e3;
+                        color: white;
+                    }
+                }
+
+            }
+
+        }
+
+        .box2 {
+            background-color: brown;
+            width: 500px;
+            height: 230px;
+            border-radius: 30px;
+            margin-top: 40px;
+        }
+
+    }
+
+}

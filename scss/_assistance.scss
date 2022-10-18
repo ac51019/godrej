@@ -1,0 +1,51 @@
+.assistance {
+    width: 100%;
+    height: 270px;
+
+    .text {
+
+        background-image: url('../assets/imag/temp45-bg.svg');
+        background-repeat: no-repeat;
+        width: 84%;
+        height: 200px;
+        margin-left: 100px;
+        border-radius: 25px;
+        margin-top: 66px;
+
+        .box {
+            width: 440px;
+            height: 130px;
+            margin-left: 50px;
+            margin-top: 20px;
+            margin-bottom: -67px;
+            padding-top: 30px;
+
+            h1 {
+                color: white;
+                font-size: 30px;
+            }
+
+            p {
+                color: rgb(226, 220, 220);
+                line-height: 0.1px;
+                font-size: 20px;
+                margin-top: 30px;
+            }
+        }
+    }
+
+    .qyc {
+        float: right;
+        width: 230px;
+        height: 60px;
+        background-color: rgb(139, 203, 213);
+        border: none;
+        color: white;
+        font-size: 20px;
+        border-radius: 8px;
+        margin-right: 72px;
+
+    }
+
+
+}
